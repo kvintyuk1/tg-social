@@ -1,0 +1,17 @@
+{
+  "name": "tg-social-functions",
+  "scripts": {
+    "build": "echo \"No build step\"",
+    "serve": "firebase emulators:start --only functions,hosting",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-functions": "^4.9.0",
+    "firebase-admin": "^12.0.0"
+  }
+}
+
